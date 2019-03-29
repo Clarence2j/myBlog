@@ -3,8 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// axios封装引入
+import srv from '@/axios/api'
 
 Vue.config.productionTip = false
+Vue.prototype.srv = srv;
 
 /* eslint-disable no-new */
 new Vue({
