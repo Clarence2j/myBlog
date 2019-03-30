@@ -23,6 +23,7 @@ Object.keys(Config).forEach(v => {
 
 Axios.defaults.baseURL = baseUrl;
 Axios.defaults.headers['Content-Type'] = 'application/x-www-form-urlencoded; charset=UTF-8' //limixuexi-bigscreen
+Axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 // Axios.defaults.headers['cook'] = 'kljljljlkjlkjljljk';
 
 const server = Axios.create()
@@ -70,7 +71,9 @@ const ajax = (params , cb , i) => {
     headers: {
       // 'X-Requested-With': 'XMLHttpRequest'
       'cook': 123,
-      'token': 'kjlkljlkjlksdlj9s80d09sdjilfj329sjdflskj'
+      'token': 'kjlkljlkjlksdlj9s80d09sdjilfj329sjdflskj',
+      'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+      // 'Content-Type': 'application/json; charset=utf-8'
     },
     // `paramsSerializer` 是一个负责 `params` 序列化的函数
     // (e.g. https://www.npmjs.com/package/qs, http://api.jquery.com/jquery.param/)
