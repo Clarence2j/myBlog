@@ -5,7 +5,7 @@ import App from './App'
 import router from './router'
 // axios封装引入
 import srv from '@/axios/api'
-
+import "babel-polyfill"
 Vue.config.productionTip = false
 Vue.prototype.srv = srv;
 
