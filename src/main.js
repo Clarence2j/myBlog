@@ -8,6 +8,7 @@ import srv from '@/axios/api'
 import "babel-polyfill"
 Vue.config.productionTip = false
 Vue.prototype.srv = srv;
+require ('@/common/scss/index.scss');
 
 /* eslint-disable no-new */
 new Vue({

@@ -2,6 +2,12 @@
   <div class="hello">
     <h1>Mirror, mirror, tell me, who is the most handsome man in the world？</h1>
     <h1>{{  resultMsg }}</h1>
+    <div style="width:100%;overflow:hidden;">
+      <img src="./../assets/logo.png" alt="" style="float:left;">
+      <p style="float:left;overflow-wrap: break-word;width: 80%">
+        dfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdffdfdfdfdfdfdffdfdfdfdfdfdfdff
+      </p>
+    </div>
   </div>
 </template>
 
